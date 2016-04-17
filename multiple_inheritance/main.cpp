@@ -2,43 +2,43 @@
 
 using namespace std;
 
-class top{
-public :
-int a;
-void getdata()
+class A              // Base class 1
 {
-cout<<"Enter first Number = ";
+public:
+int a;
+void First()
+{
+cout<<"\n\nFirst Number =\t";
 cin>>a;
 }
-void putdata()
-{
-cout<<"\nFirst Number Is = "<<a;
-}
 };
-//First level inheritance
-class middle :public top{
-    public:
+class B        //Base class 2
+{
+public:
 int b;
-void square()
+void second()
 {
-getdata();
-b=a*a;
-cout<<"\nSquare Is = "<<b;
+cout<<"\n\nSecond Number =\t";
+cin>>b;
 }
 };
-
-class bottom :public middle{
-    public:
+//Multiple Inheritance Level
+class C :public A,public B     // Class C is derived class
+{
+public:
 int c;
-void cube()
+void result()
 {
-square();
-c=b*a;
-cout<<"\n\nCube = "<<c<<"\n\n";
+First();
+second();
+c=a+b;
+cout<<"\n\nResult =\t"<<c;
 }
 };
 
-int main(){
-bottom b1;
-b1.cube();
+int main()
+{
+C c1;
+c1.result();
+
 }
