@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1455464088 source:d:\code_blocks\trapezoidal_method\main.cpp
+	<iostream>
+	<math.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1460362088 source:d:\code_blocks\regulai_falsi\main.cpp
+	<stdlib.h>
+	<iostream>
+	<math.h>
+

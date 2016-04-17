@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1453568589 source:d:\code_blocks\newton_raphson\main.cpp
+	<iostream>
+	<math.h>
+

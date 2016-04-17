@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1455981263 source:d:\code_blocks\test_hack\main.cpp
+	<iostream>
+	<stdio.h>
+

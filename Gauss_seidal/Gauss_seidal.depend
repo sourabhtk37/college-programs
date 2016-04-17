@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1455382411 source:d:\code_blocks\gauss_seidal\main.cpp
+	<stdio.h>
+	<conio.h>
+
