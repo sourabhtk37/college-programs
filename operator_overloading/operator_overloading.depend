@@ -1,4 +1,6 @@
 # depslib dependency file v1.0
-1460893385 source:d:\code_blocks\operator_overloading\main.cpp
+1461005497 source:d:\code_blocks\operator_overloading\main.cpp
+	<stdio.h>
+	<conio.h>
 	<iostream>
 
